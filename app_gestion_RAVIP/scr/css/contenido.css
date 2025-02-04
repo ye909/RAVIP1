@@ -1,0 +1,65 @@
+body {
+ 
+    margin: 0;
+    padding: 0;
+
+}
+section{
+    box-shadow: 1px 1px 6px 1px black;
+    text-align: center;
+    margin:auto 5px;
+    border-radius:6px;
+    width: 10%;
+}
+
+:is(h2,.registroForm){
+    padding: 8px;
+}
+h2{
+    font-size: 0.8rem;
+    text-align: center;
+
+}
+
+form label {
+font-size: 0.7rem;
+margin-right: 3rem;
+}
+
+form button {
+    padding: 6px 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 0.6rem;
+}
+
+form button:hover {
+    background-color: #218838;
+}
+form input {
+    width: 100%;
+    margin: 2px 0;
+    box-sizing: border-box;
+  
+}
+ .containerProgresos{
+    display: flex;
+    justify-content: space-around;
+    
+ }
+ .subcontainerProgresos{
+    background: rgb(222, 220, 220);
+    border-radius: 100%;
+   margin: 10px;
+   border-top:#218838 2px solid;
+   border-left:#011a06 2px solid;
+ }
+.subcontainerProgresos p{
+    margin: 20px 2px;
+    padding: 10px;
+ } 
+/* .containeRegistro,.containevenytas{
+    display: none;
+} */

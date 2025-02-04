@@ -1,0 +1,18 @@
+/* Aquí puedes agregar tus estilos personalizados para el diseño de la página */
+.menu {
+width: 100%;
+    border: 1px solid blue;
+    text-align: center;
+}
+
+ul,.containerInforme {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+li {
+    list-style: none;
+}
